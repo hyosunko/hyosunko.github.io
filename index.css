@@ -1,6 +1,55 @@
-.thumbnail iframe {
-  width: 1440px;
-  height: 900px;
+html, body{
+  margin: auto;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+.portpolio-container{
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  flex: row wrap;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+  background-color: #3f3f3f;
+  color: #f1f1f1;
+  height: 40px;
+  vertical-align: middle;
+  padding-top: 5px;
+  text-decoration-line: underline;
+}
+
+.footnote{
+  text-align: center;
+  background-color: #b3b3cc;
+  color: #4d2600;
+  height: 40px;
+  width: calc(1440px * 0.25);
+  margin-top: -720px;
+  cursor: pointer;
+  position:absolute;
+}
+
+
+.footnote:after{
+  background-color: #b3b3cc;
+  color: #4d2600;
+  cursor: pointer;
+}
+.thumbnail-container {
+  width: calc(1440px * 0.25);
+  height: calc(900px * 0.30);
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  margin: 3px;
+  background-color: #fff;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .thumbnail {
@@ -24,10 +73,9 @@
   bottom: 0;
 }
 
-.thumbnail-container {
-  width: calc(1440px * 0.25);
-  height: calc(900px * 0.25);
-  display: inline-block;
-  overflow: hidden;
-  position: relative;
+.thumbnail iframe {
+  /*width: 25vw;*/
+  /*height: 25vh;*/
+  width: 1440px;
+  height: 900px;
 }
