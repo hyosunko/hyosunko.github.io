@@ -33,6 +33,18 @@ html, body{
   border-radius: 50%;
 }
 
+.skills {
+  /*top: 0;*/
+  background: #d9ffb3;
+  min-height: 35vh;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  }
+
+.skill-logo {
+  width: 150px;
+  height: 150px;
+}
 
 nav ul {
   text-align: right;
@@ -43,9 +55,9 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 45px;
+  margin: 25px;
   margin-bottom: 15px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 nav ul li a {
