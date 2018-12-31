@@ -8,16 +8,31 @@ html, body{
   padding: 0;
 }
 
+.nav {
+  top: 0;
+  background: #DAF2E8;
+  min-height: 1vh;
+  /*padding-top: 1vh;*/
+  }
+
 .intro {
   top: 0;
   background: #F0F2DA;
   min-height: 35vh;
-  padding-top: 25vh;
+  padding-top: 10vh;
+  /*padding-bottom: : 35vh;*/
   }
 
 .intro p {
   color: green;
 }
+
+.me-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
 
 nav ul {
   text-align: right;
