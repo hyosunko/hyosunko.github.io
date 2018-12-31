@@ -18,9 +18,9 @@ html, body{
 .intro {
   top: 0;
   background: #F0F2DA;
-  min-height: 35vh;
+  /*min-height: 35vh;*/
   padding-top: 10vh;
-  /*padding-bottom: : 35vh;*/
+  padding-bottom: : 10vh;
   }
 
 .intro p {
@@ -36,7 +36,7 @@ html, body{
 .skills {
   /*top: 0;*/
   background: #d9ffb3;
-  min-height: 35vh;
+  /*min-height: 35vh;*/
   padding-top: 3vh;
   padding-bottom: 5vh;
   }
