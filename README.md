@@ -1,4 +1,4 @@
 # hyosunko.github.io
 This is my portfolio page.
 
-click here to [see](hyosunko.github.io) my protfolio page
+click here to [see]: https://www.michaelko.cc my protfolio page
