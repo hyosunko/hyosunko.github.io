@@ -28,8 +28,8 @@ html, body{
 }
 
 .me-pic {
-  /*width: 250px;*/
-  height: 250px;
+  width: 35%;
+  height: 35%;
   border-radius: 50%;
 }
 
@@ -69,6 +69,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #BF1FBD;
+  font-weight: bold;
 
 }
 
