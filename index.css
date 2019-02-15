@@ -28,7 +28,7 @@ html, body{
 }
 
 .me-pic {
-  width: 250px;
+  /*width: 250px;*/
   height: 250px;
   border-radius: 50%;
 }
